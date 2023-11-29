@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unipoll-api-timer-plugin"
+version = "0.0.1"
+authors = [
+  { name="University Polling", email="helm@unipoll.cc" },
+]
+description = "A plugin for the Unipoll Server app to add a timer to the poll"
+requires-python = ">=3.11"
